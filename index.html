@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arpit Kumar | Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .glass{
+      background:rgba(255,255,255,0.05);
+      backdrop-filter:blur(12px);
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .gradient{
+      background:linear-gradient(135deg,#3b82f6,#8b5cf6);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+
+  <nav class="fixed w-full top-0 z-50 glass">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold gradient">Arpit Kumar</h1>
+
+      <div class="space-x-6 hidden md:flex">
+        <a href="#about" class="hover:text-blue-400">About</a>
+        <a href="#experience" class="hover:text-blue-400">Experience</a>
+        <a href="#skills" class="hover:text-blue-400">Skills</a>
+        <a href="#projects" class="hover:text-blue-400">Projects</a>
+        <a href="#contact" class="hover:text-blue-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+
+  <section class="min-h-screen flex items-center justify-center px-6">
+
+    <div class="text-center max-w-4xl">
+
+      <h2 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        MBA (HR) & <br>
+        <span class="gradient">BTech CSE Professional</span>
+      </h2>
+
+      <p class="text-xl text-gray-300 mb-8">
+        Talent Acquisition • HR Analytics • HR Operations • Tech-Driven Solutions
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+
+        <a href="mailto:arpitanu44@gmail.com"
+          class="px-8 py-4 bg-blue-600 rounded-xl hover:bg-blue-700 transition">
+          Contact Me
+        </a>
+
+        <a href="https://www.linkedin.com/in/arpit-kumar-in"
+          target="_blank"
+          class="px-8 py-4 border border-white rounded-xl hover:bg-white hover:text-black transition">
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About -->
+
+  <section id="about" class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <h3 class="text-4xl font-bold mb-10 gradient">About Me</h3>
+
+      <div class="glass rounded-3xl p-8">
+
+        <p class="text-lg text-gray-300 leading-8">
+          MBA (HR) & BTech (CSE) candidate specialising in Talent Acquisition,
+          HR Operations, and HR Analytics. Experienced in recruitment,
+          onboarding, stakeholder coordination, and process optimization.
+          Combines technical expertise from Accenture and Insurance Dekho
+          with HR-focused analytical capabilities.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Experience -->
+
+  <section id="experience" class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <h3 class="text-4xl font-bold mb-12 gradient">Experience</h3>
+
+      <div class="space-y-8">
+
+        <div class="glass p-8 rounded-3xl">
+
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+            <h4 class="text-2xl font-bold">Insurance Dekho</h4>
+            <span class="text-blue-400">May 2025 – Aug 2025</span>
+          </div>
+
+          <p class="text-xl text-gray-300 mb-4">
+            Operations Intern
+          </p>
+
+          <ul class="space-y-3 text-gray-300">
+            <li>• Executed QC checks for 50+ policies weekly with 98% accuracy.</li>
+            <li>• Managed quotations, payment links, and end-to-end policy booking.</li>
+            <li>• Coordinated with 10+ Relationship Managers.</li>
+            <li>• Improved SOP adherence and stakeholder coordination.</li>
+          </ul>
+
+        </div>
+
+        <div class="glass p-8 rounded-3xl">
+
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+            <h4 class="text-2xl font-bold">Accenture</h4>
+            <span class="text-blue-400">Jun 2023 – Aug 2023</span>
+          </div>
+
+          <p class="text-xl text-gray-300 mb-4">
+            Technology Intern
+          </p>
+
+          <ul class="space-y-3 text-gray-300">
+            <li>• Developed Asset Tracking Software using Quickbase.</li>
+            <li>• Built KPI tracking and MIS reporting modules.</li>
+            <li>• Worked on AWS fundamentals and Java concepts.</li>
+            <li>• Collaborated in cross-functional project delivery.</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills" class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <h3 class="text-4xl font-bold mb-12 gradient">Skills</h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="glass p-8 rounded-3xl">
+          <h4 class="text-2xl font-bold mb-6 text-blue-400">HR Tools</h4>
+
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-blue-600 px-4 py-2 rounded-full">Resdex</span>
+            <span class="bg-blue-600 px-4 py-2 rounded-full">Boolean Search</span>
+            <span class="bg-blue-600 px-4 py-2 rounded-full">Keka</span>
+            <span class="bg-blue-600 px-4 py-2 rounded-full">Zoho Recruit</span>
+            <span class="bg-blue-600 px-4 py-2 rounded-full">Naukri RMS</span>
+          </div>
+        </div>
+
+        <div class="glass p-8 rounded-3xl">
+          <h4 class="text-2xl font-bold mb-6 text-purple-400">Technology</h4>
+
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-purple-600 px-4 py-2 rounded-full">Excel</span>
+            <span class="bg-purple-600 px-4 py-2 rounded-full">Quickbase</span>
+            <span class="bg-purple-600 px-4 py-2 rounded-full">AWS</span>
+            <span class="bg-purple-600 px-4 py-2 rounded-full">Java</span>
+            <span class="bg-purple-600 px-4 py-2 rounded-full">Canva</span>
+            <span class="bg-purple-600 px-4 py-2 rounded-full">AI Tools</span>
+          </div>
+        </div>
+
+        <div class="glass p-8 rounded-3xl">
+          <h4 class="text-2xl font-bold mb-6 text-pink-400">Core HR</h4>
+
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-pink-600 px-4 py-2 rounded-full">Talent Acquisition</span>
+            <span class="bg-pink-600 px-4 py-2 rounded-full">Onboarding</span>
+            <span class="bg-pink-600 px-4 py-2 rounded-full">HR Analytics</span>
+            <span class="bg-pink-600 px-4 py-2 rounded-full">MIS Reporting</span>
+            <span class="bg-pink-600 px-4 py-2 rounded-full">Employee Engagement</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+
+  <section id="projects" class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <h3 class="text-4xl font-bold mb-12 gradient">Projects</h3>
+
+      <div class="glass rounded-3xl p-8">
+
+        <h4 class="text-3xl font-bold mb-4">
+          Asset Tracking System
+        </h4>
+
+        <p class="text-blue-400 mb-4">
+          Quickbase • AWS • Java
+        </p>
+
+        <p class="text-gray-300 leading-8">
+          Developed a no-code asset management platform during internship at
+          Accenture covering asset allocation, tracking, KPI monitoring,
+          reporting, and operational analytics. Reduced manual work and
+          improved reporting accuracy.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Certifications -->
+
+  <section class="py-20 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <h3 class="text-4xl font-bold mb-12 gradient">Certifications</h3>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <div class="glass p-6 rounded-3xl">
+          HR with Specialisation in Talent Acquisition – SIDH
+        </div>
+
+        <div class="glass p-6 rounded-3xl">
+          Naukri Maestro Recruiter – Naukri.com
+        </div>
+
+        <div class="glass p-6 rounded-3xl">
+          HR Generalist – Keka Academy
+        </div>
+
+        <div class="glass p-6 rounded-3xl">
+          Tally Prime Advance with GST Accounting
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+
+  <section id="contact" class="py-20 px-6">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h3 class="text-4xl font-bold mb-8 gradient">Let's Connect</h3>
+
+      <p class="text-gray-300 text-lg mb-10">
+        Open to HR, Talent Acquisition, HR Operations, and HR Analytics opportunities.
+      </p>
+
+      <div class="flex flex-col md:flex-row justify-center gap-6">
+
+        <a href="mailto:arpitanu44@gmail.com"
+          class="glass px-8 py-4 rounded-2xl hover:scale-105 transition">
+          arpitanu44@gmail.com
+        </a>
+
+        <a href="https://github.com/marpitkumar"
+          target="_blank"
+          class="glass px-8 py-4 rounded-2xl hover:scale-105 transition">
+          GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/arpit-kumar-in"
+          target="_blank"
+          class="glass px-8 py-4 rounded-2xl hover:scale-105 transition">
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="py-10 text-center text-gray-400 border-t border-gray-800">
+    © 2026 Arpit Kumar. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
